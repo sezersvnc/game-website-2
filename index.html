@@ -8,25 +8,31 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="dark">
 
   <!-- HEADER -->
   <header>
-    <div class="logo">
-      <img src="./logo/3.png" alt="Q-Line Logo">
-      Q-Line Studio
+    <div class="header-container">
+      <div class="logo">
+        <img src="./logo/3.png" alt="Q-Line Logo">
+        Q-Line Studio
+      </div>
+      <div class="nav-action">
+        <button class="hamburger">☰</button>
+        <nav class="nav">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="teklif.html">Cost</a></li>
+            <li><a href="#games">Games</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <button id="themeToggle" class="theme-btn">🌙</button>
+      </div>
     </div>
 
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="teklif.html">Cost</a></li>
-        <li><a href="#games">Games</a></li>
-        <li><a href="team.html">Team</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
   </header>
 
   <!-- MAİN -->
@@ -84,7 +90,7 @@
     <p><b>E-mail</b>: Q_LineGame@example.com</p>
     <p><b>Number</b>: 123 45 678</p>
   </footer>
-
+  <script src="script.js"></script>
 </body>
 
 </html>
