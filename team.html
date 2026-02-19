@@ -8,14 +8,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="dark">
     <header>
-        <div class="team_logo"><img src="./logo/3.png" alt="logo"> About team</div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Ana sayfa</a></li>
-            </ul>
-        </nav>
+        <div class="header-container">
+            <div class="logo">
+                <img src="./logo/3.png" alt="Q-Line Logo">
+                Q-Line Studio
+            </div>
+            <div class="nav-action">
+                <button class="hamburger">☰</button>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="teklif.html">Cost</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <button id="themeToggle" class="theme-btn">🌙</button>
+            </div>
+        </div>
+
     </header>
     <section class="team">
         <h1>Fikirlerinizi Geleceğe Taşıyan Ekibimiz</h1>
@@ -42,7 +55,7 @@
         </div>
 
     </section>
-    
+
     <footer id="contact">
         <p>© 2026 Q-Line Game Studio | All Rights Reserved</p>
         <p><b>E-mail</b>: Q_LineGame@example.com</p>
@@ -50,7 +63,9 @@
     </footer>
 
 
+    <script src="script.js">
 
+    </script>
 </body>
 
 </html>
