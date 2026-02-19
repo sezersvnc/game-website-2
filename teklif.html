@@ -8,20 +8,27 @@
 </head>
 <link rel="stylesheet" href="style.css">
 
-<body>
+<body class="dark">
     <header>
-        <div class="logo">
-            <img src="./logo/3.png" alt="Q-Line Logo">
-            Q-Line Studio
+        <div class="header-container">
+            <div class="logo">
+                <img src="./logo/3.png" alt="Q-Line Logo">
+                Q-Line Studio
+            </div>
+            <div class="nav-action">
+                <button class="hamburger">☰</button>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="teklif.html">Cost</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <button id="themeToggle" class="theme-btn">🌙</button>
+            </div>
         </div>
 
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="teklif.html">Cost</a></li>
-                <li><a href="team.html">Team</a></li>
-            </ul>
-        </nav>
     </header>
     <section class="mainCost">
         <div class="game_kategori">
@@ -52,7 +59,7 @@
             <div class="btnArea">
                 <button id="hesaplaBtn">Hesapla</button>
             </div>
-            
+
             <div class="gizli optionsBlock" id="sonuc"></div>
 
         </div>
@@ -63,7 +70,7 @@
         <p><b>Number</b>: 123 45 678</p>
     </footer>
     <script src="script.js">
-        
+
     </script>
 </body>
 
